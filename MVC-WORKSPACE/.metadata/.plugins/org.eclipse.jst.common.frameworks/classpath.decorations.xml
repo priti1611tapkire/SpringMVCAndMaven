@@ -1,0 +1,7 @@
+<classpath>
+  <container id="MVCPATTERN_SecondaryRefernace!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="D:/Spring/MVC-WORKSPACE/MVCPATTERN_SecondaryRefernace/WebContent/WEB-INF/lib/spring-webmvc-5.3.2.jar">
+      <source-attachment-path>D:/Spring/SPRINGMVC JAR/spring-webmvc-5.3.2.jar</source-attachment-path>
+    </entry>
+  </container>
+</classpath>

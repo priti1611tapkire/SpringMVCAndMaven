@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="addr" class="com.cjc.Address">
+    <property name="areaname" value="KasliwalGarden"></property>
+    <property name="cityname" value="Aurangabad"></property>
+    </bean>
+    <bean id="m" class="com.cjc.Student" autowire="byName"> 
+    <property name="rollno" value="1"></property>
+    <property name="name" value="Priti"></property>
+ 
+    </bean>
+    </beans>

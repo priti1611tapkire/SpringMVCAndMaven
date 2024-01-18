@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="coll" class="com.cjc.Student">
+    <property name="myList">
+    <list>
+    <value>Priti</value>
+    <value>Pratiksha</value>
+    </list>
+    </property>
+    <property name="mySet">
+    <list>
+    <value>Tapkire</value>
+    <value>Bhosale</value>
+    </list>
+    </property>
+    <property name="myMap">
+    <map>
+    <entry key="1" value="Aurangabad"></entry>
+        <entry key="2" value="Pune"></entry>
+    </map>
+    </property>
+    </bean>
+    </beans>
